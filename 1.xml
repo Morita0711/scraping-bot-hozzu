@@ -1,0 +1,55 @@
+<ReceiptExportRequest xmlns="urn:Ariba:Buyer:vrealm_50020" xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" partition="prealm_50020" variant="vrealm_50020">
+    <Receipt_ReceiptHeaderExportWS_Item>
+        <item>
+            <CreateDate>2022-02-04T09:01:41Z</CreateDate>
+            <ProcurementUnit>
+                <UniqueName>578</UniqueName>
+            </ProcurementUnit>
+            <Requester>
+                <UniqueName>ayush1</UniqueName>
+            </Requester>
+            <StatusString>Approved</StatusString>
+            <UniqueName>RC17960</UniqueName>
+        </item>
+        </Receipt_ReceiptHeaderExportWS_Item>
+        <Receipt_ReceiptDetailExportWS_Item>
+            <item>
+                <ReceiptItems>
+            <item>
+            <AmountAccepted>
+                <Amount>1000.00000</Amount>
+                </AmountAccepted><AmountRejected>
+                <Amount>0.00000</Amount>
+                </AmountRejected>
+                <ERPPOLineNumber>1</ERPPOLineNumber>
+                <ERPPONumber/>
+                    <LineItem>
+                        <Amount>
+                            <Amount>8000.00000</Amount>
+                        </Amount>
+                        <Description>
+                            <UnitOfMeasure>
+                                <UniqueName>EA</UniqueName>
+                            </UnitOfMeasure>
+                        </Description>
+                        <NumberInCollection>1</NumberInCollection>
+                        <Quantity>8000.00000</Quantity>
+                        <ReceivingType>2</ReceivingType>
+                    </LineItem>
+                    <NumberAccepted>1000.00000</NumberAccepted>
+                    <NumberInCollection>1</NumberInCollection>
+                    <NumberRejected>0.00000</NumberRejected>
+                    <TotalAmountAccepted>
+                        <Amount>2000.00000</Amount>
+                    </TotalAmountAccepted>
+                    <TotalAmountRejected>
+                        <Amount>0.00000</Amount>
+                        </TotalAmountRejected>
+                        <TotalNumberAccepted>2000.00000</TotalNumberAccepted>
+                        <TotalNumberRejected>0.00000</TotalNumberRejected>
+                        <custom>
+                            <CustomString name="SupplierAuxiliaryPartID">ID 10001</CustomString>
+                            <CustomString name="SupplierPartNumber"/>
+                        </custom>
+                        </item>
+                        <item><AmountAccepted><Amount>1500.00000</Amount></AmountAccepted><AmountRejected><Amount>0.00000</Amount></AmountRejected><ERPPOLineNumber>2</ERPPOLineNumber><ERPPONumber/><LineItem><Amount><Amount>5000.00000</Amount></Amount><Description><UnitOfMeasure><UniqueName>EA</UniqueName></UnitOfMeasure></Description><NumberInCollection>2</NumberInCollection><Quantity>5000.00000</Quantity><ReceivingType>2</ReceivingType></LineItem><NumberAccepted>1500.00000</NumberAccepted><NumberInCollection>2</NumberInCollection><NumberRejected>0.00000</NumberRejected><TotalAmountAccepted><Amount>3000.00000</Amount></TotalAmountAccepted><TotalAmountRejected><Amount>0.00000</Amount></TotalAmountRejected><TotalNumberAccepted>3000.00000</TotalNumberAccepted><TotalNumberRejected>0.00000</TotalNumberRejected><custom><CustomString name="SupplierAuxiliaryPartID">ID 10002</CustomString><CustomString name="SupplierPartNumber"/></custom></item><item><AmountAccepted><Amount>900.00000</Amount></AmountAccepted><AmountRejected><Amount>0.00000</Amount></AmountRejected><ERPPOLineNumber>3</ERPPOLineNumber><ERPPONumber/><LineItem><Amount><Amount>4000.00000</Amount></Amount><Description><UnitOfMeasure><UniqueName>EA</UniqueName></UnitOfMeasure></Description><NumberInCollection>3</NumberInCollection><Quantity>4000.00000</Quantity><ReceivingType>2</ReceivingType></LineItem><NumberAccepted>900.00000</NumberAccepted><NumberInCollection>3</NumberInCollection><NumberRejected>0.00000</NumberRejected><TotalAmountAccepted><Amount>1800.00000</Amount></TotalAmountAccepted><TotalAmountRejected><Amount>0.00000</Amount></TotalAmountRejected><TotalNumberAccepted>1800.00000</TotalNumberAccepted><TotalNumberRejected>0.00000</TotalNumberRejected><custom><CustomString name="SupplierAuxiliaryPartID">ID 10003</CustomString><CustomString name="SupplierPartNumber"/></custom></item><item><AmountAccepted><Amount>1400.00000</Amount></AmountAccepted><AmountRejected><Amount>0.00000</Amount></AmountRejected><ERPPOLineNumber>4</ERPPOLineNumber><ERPPONumber/><LineItem><Amount><Amount>10000.00000</Amount></Amount><Description><UnitOfMeasure><UniqueName>EA</UniqueName></UnitOfMeasure></Description><NumberInCollection>4</NumberInCollection><Quantity>10000.00000</Quantity><ReceivingType>2</ReceivingType></LineItem><NumberAccepted>1400.00000</NumberAccepted><NumberInCollection>4</NumberInCollection><NumberRejected>0.00000</NumberRejected><TotalAmountAccepted><Amount>3400.00000</Amount></TotalAmountAccepted><TotalAmountRejected><Amount>0.00000</Amount></TotalAmountRejected><TotalNumberAccepted>3400.00000</TotalNumberAccepted><TotalNumberRejected>0.00000</TotalNumberRejected><custom><CustomString name="SupplierAuxiliaryPartID">ID 10004</CustomString><CustomString name="SupplierPartNumber"/></custom></item></ReceiptItems><UniqueName>RC17960</UniqueName></item></Receipt_ReceiptDetailExportWS_Item></ReceiptExportRequest>
